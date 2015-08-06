@@ -1,0 +1,60 @@
+
+
+header{
+    display: block;
+    position: relative;
+    width:100%;
+    height:50px;
+}
+header h3{
+    margin:0;
+    padding:0;
+    text-align: center;
+    display: block;
+    height:50px;
+    width:100%;
+    line-height: 50px;
+    font-family: "微软雅黑";
+}
+section {
+  position: relative;
+  overflow: hidden;
+  width: 100%; }
+
+.job {
+  position: relative;
+  width: 80%;
+  height: auto;
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*# sourceMappingURL=style.css.map */
+/* label color */
+.input-field label {
+    color: #666;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: orange;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid orange;
+    box-shadow: 0 1px 0 0 orange;
+}
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid orange;
+    box-shadow: 0 1px 0 0 orange;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid orange;
+    box-shadow: 0 1px 0 0 orange;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: orange;
+}
